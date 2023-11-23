@@ -22,3 +22,9 @@ R
 "src/main/java/db/DBConnection.java,f\d\fd7336f68247f5ace91042607378ff616e4285dd
 T
 $src/main/java/dto/tm/CustomerTm.java,2\a\2a0edce3160840b5e1dff3a221d2fba22c0b3f67
+Q
+!src/main/java/dto/tm/ItemDto.java,0\c\0c637e10691aab4dd503096cd5685810768d601f
+N
+src/main/java/dto/ItemDto.java,3\d\3d0380508e9c218720144ded2d55164c08dc8381
+P
+ src/main/java/dto/tm/ItemTm.java,9\b\9bcbd3a396619ca96463cd87f096ec09b0b2ae8f
