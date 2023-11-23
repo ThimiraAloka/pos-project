@@ -1,6 +1,7 @@
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -18,6 +19,7 @@ public class AppInitializer extends Application {
         primaryStage.centerOnScreen();
         primaryStage.setResizable(false);
         primaryStage.setTitle("Dashboard Form");
+        primaryStage.getIcons().add(new Image("img/logodb.jpg"));
         primaryStage.show();
 
     }

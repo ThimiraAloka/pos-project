@@ -8,14 +8,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="pane" prefHeight="486.0" prefWidth="638.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardFromController">
+<AnchorPane fx:id="pane" prefHeight="486.0" prefWidth="630.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardFromController">
    <children>
       <ImageView fitHeight="378.0" fitWidth="600.0" layoutX="33.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../img/dbphoto.jpg" />
          </image>
       </ImageView>
-      <Label alignment="CENTER" layoutX="168.0" layoutY="-11.0" prefHeight="39.0" prefWidth="287.0" text="iFood City" textFill="#00ffe9">
+      <Label alignment="CENTER" layoutX="168.0" layoutY="-8.0" prefHeight="39.0" prefWidth="287.0" text="iFood City" textFill="#00ffe9">
          <font>
             <Font name="System Bold Italic" size="46.0" />
          </font>
@@ -46,7 +46,7 @@
             <Font name="System Italic" size="13.0" />
          </font>
       </Label>
-      <Label fx:id="lblTime" layoutX="510.0" layoutY="6.0" prefHeight="31.0" prefWidth="125.0" text="HH:mm:ss" textFill="WHITE">
+      <Label fx:id="lblTime" layoutX="522.0" layoutY="6.0" prefHeight="31.0" prefWidth="111.0" text="HH:mm:ss" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>

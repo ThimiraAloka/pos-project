@@ -10,6 +10,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import javafx.util.Duration;
@@ -55,6 +56,7 @@ public class DashboardFromController {
         try {
             stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/CustomerForm.fxml"))));
             stage.setTitle("Customer Form");
+            stage.getIcons().add(new Image("img/logodb.jpg"));
             stage.show();
         } catch (IOException e) {
             e.printStackTrace();
@@ -68,6 +70,7 @@ public class DashboardFromController {
             stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/ItemForm.fxml"))));
             stage.setResizable(true);
             stage.setTitle("Item Form");
+            stage.getIcons().add(new Image("img/logodb.jpg"));
             stage.show();
         } catch (IOException e) {
             e.printStackTrace();
