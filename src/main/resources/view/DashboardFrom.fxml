@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
-
 
 <AnchorPane fx:id="pane" prefHeight="470.0" prefWidth="600.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardFromController">
    <children>
@@ -17,11 +17,17 @@
          <font>
             <Font name="System Bold" size="22.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </JFXButton>
       <JFXButton layoutX="93.0" layoutY="246.0" onAction="#itemsButtonOnAction" prefHeight="47.0" prefWidth="141.0" style="-fx-background-color: red;" text="Item" textFill="WHITE">
          <font>
             <Font name="System Bold" size="22.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </JFXButton>
    </children>
 </AnchorPane>
