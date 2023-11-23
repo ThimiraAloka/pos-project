@@ -108,6 +108,18 @@ public class CustomerFormController {
     }
 
     private void deleteCustomer(String id) {
+        try {
+            boolean isDeleted = customerModel.deleteCustomer(id);
+            if (isDeleted){
+                new Alert(Alert.AlertType.INFORMATION,"Customer Deleted!").show();
+                loadCustomerTable();
+            }else{
+                new Alert(Alert.AlertType.ERROR,"Something went wrong!").show();
+            }
+
+        } catch (ClassNotFoundException | SQLException e) {
+            e.printStackTrace();
+        }
     }
 
     @FXML

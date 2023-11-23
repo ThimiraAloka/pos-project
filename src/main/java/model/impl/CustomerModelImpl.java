@@ -13,7 +13,7 @@ import java.util.List;
 public class CustomerModelImpl implements CustomerModel {
     @Override
     public boolean saveCustomer(CustomerDto dto) throws SQLException, ClassNotFoundException {
-        String sql = "INSERT INTO ";
+        String sql = "INSERT INTO customer VALUES(?,?,?,?)";
         PreparedStatement pstm = DBConnection.getInstance().getConnection().prepareStatement(sql);
 
         return pstm.executeUpdate()>0;
@@ -33,7 +33,10 @@ public class CustomerModelImpl implements CustomerModel {
 
     @Override
     public boolean deleteCustomer(String id) throws SQLException, ClassNotFoundException {
-        return false;
+        String sql = "DELETE from customer WHERE id=?";
+        PreparedStatement pstm = DBConnection.getInstance().getConnection().prepareStatement(sql);
+        pstm.setString(1,id);
+        return pstm.executeUpdate()>0;
     }
 
 

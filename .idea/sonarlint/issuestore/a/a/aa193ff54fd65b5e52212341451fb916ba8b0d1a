@@ -9,19 +9,15 @@ Q
 java:S3740'"/Provide the parametrized type for this generic.(ù‚©·üÿÿÿÿ8“åÚ¿1
 L
 java:S3740)"/Provide the parametrized type for this generic.(ÚÊØ˜8“åÚ¿1
-£
-java:S1186n"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ËÆ£Áùÿÿÿÿ8¢•Ú¿1
 I
 java:S1602=",Remove useless curly braces around statement(×²ç8²åÚ¿1
 b
 java:S2147i"ECombine this catch with the one at line 103, which has the same body.(ıàÑÎ8ÁÕ’Ú¿1
 I
 java:S1602_",Remove useless curly braces around statement(ë¹¬8ÂÕ’Ú¿1
-K
-java:S1172n")Remove this unused method parameter "id".(ËÆ£Áùÿÿÿÿ8¢•Ú¿1
-O
-java:S1172|"2Remove this unused method parameter "actionEvent".(°§¾8ºåÚ¿1
+P
+java:S1172ˆ"2Remove this unused method parameter "actionEvent".(°§¾8ºåÚ¿1
 U
-java:S1172"2Remove this unused method parameter "actionEvent".(áËşÚÿÿÿÿÿ8¼åÚ¿1
+java:S1172™"2Remove this unused method parameter "actionEvent".(áËşÚÿÿÿÿÿ8¼åÚ¿1
 J
-java:S1172œ",Remove this unused method parameter "event".(œì±8¾åÚ¿1
+java:S1172¨",Remove this unused method parameter "event".(œì±8Ú¬˜İ¿1
