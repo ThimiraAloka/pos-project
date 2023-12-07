@@ -1,44 +1,48 @@
 
 L
-java:S3740"/Provide the parametrized type for this generic.(»§²8ÃÖâ¿1
+java:S3740"/Provide the parametrized type for this generic.(»§²8ÉñÔÖÀ1
 L
-java:S3740"/Provide the parametrized type for this generic.(™¼…ÿ8á‘â¿1
+java:S3740"/Provide the parametrized type for this generic.(™¼…ÿ8ÊñÔÖÀ1
 Q
-java:S3740"/Provide the parametrized type for this generic.(©à¾Àúÿÿÿÿ8öÙâ¿1
+java:S3740"/Provide the parametrized type for this generic.(©à¾Àúÿÿÿÿ8ÊñÔÖÀ1
 L
-java:S3740 "/Provide the parametrized type for this generic.(èÁƒá8«’â¿1
+java:S3740 "/Provide the parametrized type for this generic.(èÁƒá8ÊñÔÖÀ1
 Q
-java:S3740!"/Provide the parametrized type for this generic.(ŒĞ¶Ñøÿÿÿÿ8Ç¶â¿1
+java:S3740!"/Provide the parametrized type for this generic.(ŒĞ¶Ñøÿÿÿÿ8ÊñÔÖÀ1
 L
-java:S3740'"/Provide the parametrized type for this generic.(­·Õ8ÓÑâ¿1
+java:S3740'"/Provide the parametrized type for this generic.(­·Õ8ÊñÔÖÀ1
 r
-java:S1104"UMake colOption a static final constant or non-public and provide accessors if needed.(»§²8ÄÖâ¿1
+java:S1104"UMake colOption a static final constant or non-public and provide accessors if needed.(»§²8ËñÔÖÀ1
 o
-java:S1104"RMake colQty a static final constant or non-public and provide accessors if needed.(™¼…ÿ8á‘â¿1
+java:S1104"RMake colQty a static final constant or non-public and provide accessors if needed.(™¼…ÿ8ËñÔÖÀ1
 z
-java:S1104"XMake colUnitPrice a static final constant or non-public and provide accessors if needed.(©à¾Àúÿÿÿÿ8øÙâ¿1
+java:S1104"XMake colUnitPrice a static final constant or non-public and provide accessors if needed.(©à¾Àúÿÿÿÿ8ËñÔÖÀ1
 p
-java:S1104 "SMake colDesc a static final constant or non-public and provide accessors if needed.(èÁƒá8¬’â¿1
+java:S1104 "SMake colDesc a static final constant or non-public and provide accessors if needed.(èÁƒá8ËñÔÖÀ1
 u
-java:S1104!"SMake colCode a static final constant or non-public and provide accessors if needed.(ŒĞ¶Ñøÿÿÿÿ8È¶â¿1
+java:S1104!"SMake colCode a static final constant or non-public and provide accessors if needed.(ŒĞ¶Ñøÿÿÿÿ8ËñÔÖÀ1
 r
-java:S1104""UMake txtSearch a static final constant or non-public and provide accessors if needed.(ïò˜§8 ñâ¿1
+java:S1104""UMake txtSearch a static final constant or non-public and provide accessors if needed.(ïò˜§8ËñÔÖÀ1
 t
-java:S1104#"RMake txtQty a static final constant or non-public and provide accessors if needed.(„¬‘³øÿÿÿÿ8¬Ä‘â¿1
+java:S1104#"RMake txtQty a static final constant or non-public and provide accessors if needed.(„¬‘³øÿÿÿÿ8ËñÔÖÀ1
 u
-java:S1104$"SMake txtDesc a static final constant or non-public and provide accessors if needed.(ÀĞÓ¿ûÿÿÿÿ8âæ‘â¿1
+java:S1104$"SMake txtDesc a static final constant or non-public and provide accessors if needed.(ÀĞÓ¿ûÿÿÿÿ8ËñÔÖÀ1
 p
-java:S1104%"SMake txtCode a static final constant or non-public and provide accessors if needed.(Ÿ»ì¡8ô˜”â¿1
+java:S1104%"SMake txtCode a static final constant or non-public and provide accessors if needed.(Ÿ»ì¡8ÌñÔÖÀ1
 z
-java:S1104&"XMake txtUnitPrice a static final constant or non-public and provide accessors if needed.(©›×Ğùÿÿÿÿ8ƒ»”â¿1
+java:S1104&"XMake txtUnitPrice a static final constant or non-public and provide accessors if needed.(©›×Ğùÿÿÿÿ8ÌñÔÖÀ1
 p
-java:S1104'"SMake tblItem a static final constant or non-public and provide accessors if needed.(­·Õ8ÖÑâ¿1
+java:S1104'"SMake tblItem a static final constant or non-public and provide accessors if needed.(­·Õ8ÍñÔÖÀ1
+m
+java:S2095€"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ìû—8Ù²ßŠÁ1
+i
+java:S2095;"GUse try-with-resources or close this "Statement" in a "finally" clause.(ôÅ¹Îıÿÿÿÿ8Ø²ßŠÁ1
 l
-java:S2095["OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ìû—8ÙšÓâ¿1
+java:S2095]"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ìû—8Ù²ßŠÁ1
 Ÿ
-java:S1186‘"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹ù¯Ç8¶–â¿1
+java:S1186“"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹ù¯Ç8ûñÔÖÀ1
 I
-java:S1602G",Remove useless curly braces around statement(ë¹¬8©Éâ¿1
+java:S1602I",Remove useless curly braces around statement(ë¹¬8‚òÔÖÀ1
 I
-java:S1172u",Remove this unused method parameter "event".(œì±8œ‹Õâ¿1
-^	java:S125‡"<This block of commented-out lines of code should be removed.( š¯åúÿÿÿÿ8Ÿ‹Õâ¿1
+java:S1172w",Remove this unused method parameter "event".(œì±8òÔÖÀ1
+^	java:S125‰"<This block of commented-out lines of code should be removed.( š¯åúÿÿÿÿ8òÔÖÀ1
