@@ -1,11 +1,39 @@
 
-
-java:S1186="€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(è½ ¡8“¿¶ÍÁ1
-
-java:S1186B"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹Ö¼8Ôß¨ÍÁ1
-
-java:S1186G"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©¬ÂJ8Ôß¨ÍÁ1
-
-java:S1186L"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(øÕË8Ôß¨ÍÁ1
 Q
-java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8™¿¶ÍÁ1
+java:S3740'"/Provide the parametrized type for this generic.(¯ñŠáúÿÿÿÿ8ûÂ©Ä1
+Q
+java:S3740*"/Provide the parametrized type for this generic.(¤Á¦ÿúÿÿÿÿ8ûÂ©Ä1
+Q
+java:S3740-"/Provide the parametrized type for this generic.(—ŒĞğüÿÿÿÿ8üÂ©Ä1
+Q
+java:S37400"/Provide the parametrized type for this generic.(íı’­úÿÿÿÿ8üÂ©Ä1
+Q
+java:S37403"/Provide the parametrized type for this generic.(Ú¢éÕùÿÿÿÿ8üÂ©Ä1
+Q
+java:S37406"/Provide the parametrized type for this generic.(Èâ–úÿÿÿÿ8üÂ©Ä1
+Q
+java:S37409"/Provide the parametrized type for this generic.(ıø–»şÿÿÿÿ8üÂ©Ä1
+L
+java:S3740t"/Provide the parametrized type for this generic.(Ÿœ•¨8üÂ©Ä1
+M
+java:S3740ƒ"/Provide the parametrized type for this generic.(Ÿœ•¨8üÂ©Ä1
+|
+java:S2293Æ"YReplace the type specification in this constructor call with the diamond operator ("<>").(¿äÛ’ùÿÿÿÿ8ıÂ©Ä1
+x
+java:S1104%"VMake lblOrderId a static final constant or non-public and provide accessors if needed.(¢–ñ¯ıÿÿÿÿ8şÂ©Ä1
+b
+java:S2147{"ECombine this catch with the one at line 121, which has the same body.(ıàÑÎ8ÀÃ©Ä1
+c
+java:S2147Š"ECombine this catch with the one at line 136, which has the same body.(ıàÑÎ8ÂÃ©Ä1
+c
+java:S2147œ"ECombine this catch with the one at line 154, which has the same body.(ıàÑÎ8ÃÃ©Ä1
+S
+java:S6397”"5Replace this character class by the character itself.(à‡·¬8ÄÃ©Ä1
+c
+java:S2147Î"ECombine this catch with the one at line 204, which has the same body.(ıàÑÎ8ÅÃ©Ä1
+f
+java:S3986î"HMake sure that week Year "YYYY" is expected here instead of Year "yyyy".(¦Ğ£¨8ĞÃ©Ä1
+P
+java:S1128	".Remove this unused import 'dto.tm.CustomerTm'.(Ä¶™ûÿÿÿÿ8ÒÃ©Ä1
+h
+java:S1128"KRemove this unused import 'javafx.scene.control.cell.PropertyValueFactory'.(àÎ¬õ8ÒÃ©Ä1

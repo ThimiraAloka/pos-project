@@ -6,6 +6,7 @@ import com.jfoenix.controls.JFXTreeTableView;
 import com.jfoenix.controls.RecursiveTreeItem;
 import com.jfoenix.controls.datamodels.treetable.RecursiveTreeObject;
 import db.DBConnection;
+import dto.CustomerDto;
 import dto.ItemDto;
 import dto.tm.ItemTm;
 import javafx.collections.FXCollections;
@@ -20,6 +21,8 @@ import javafx.scene.control.TreeTableColumn;
 import javafx.scene.control.cell.TreeItemPropertyValueFactory;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
+import model.ItemModel;
+import model.impl.ItemModelImpl;
 
 import java.io.IOException;
 import java.sql.*;
@@ -36,9 +39,11 @@ public class ItemFormController {
     public JFXTextField txtDesc;
     public JFXTextField txtCode;
     public JFXTextField txtUnitPrice;
-    public JFXTreeTableView tblItem;
+    public JFXTreeTableView<ItemTm> tblItem;
     @FXML
     private BorderPane pane;
+
+    private ItemModel itemModel = new ItemModelImpl();
 
     public void initialize(){
         colCode.setCellValueFactory(new TreeItemPropertyValueFactory<>("code"));
@@ -48,7 +53,19 @@ public class ItemFormController {
         colOption.setCellValueFactory(new TreeItemPropertyValueFactory<>("btn"));
         loadItemTable();
 
+        tblItem.getSelectionModel().selectedItemProperty().addListener((observableValue, oldValue, newValue) -> {
+            setData(newValue.getValue()); // data updated . but some error
+        });
+    }
 
+    private void setData(ItemTm newValue) {
+        if (newValue != null) {
+            txtCode.setText(newValue.getCode());
+            txtCode.setEditable(false);
+            txtDesc.setText(newValue.getDesc());
+            txtUnitPrice.setText(String.valueOf(newValue.getUnitPrice()));
+            txtQty.setText(String.valueOf(newValue.getQty()));
+        }
     }
 
     private void loadItemTable() {
@@ -145,5 +162,29 @@ public class ItemFormController {
     }
 
     public void updateButtonOnAction(ActionEvent event) {
+       try {
+           boolean isUpdated = itemModel.updateItem(new ItemDto(
+                    txtCode.getText(),
+                    txtDesc.getText(),
+                    Double.parseDouble(txtUnitPrice.getText()),
+                    Integer.parseInt(txtQty.getText())
+            ));
+
+            if (isUpdated) {
+                new Alert(Alert.AlertType.INFORMATION, "Item Updated!").show();
+                loadItemTable();
+                clearFields();
+            }
+       } catch (ClassNotFoundException | SQLException e) {
+           e.printStackTrace();
+       }
+    }
+    private void clearFields() {
+        tblItem.refresh();
+        txtCode.clear();
+        txtDesc.clear();
+        txtUnitPrice.clear();
+        txtQty.clear();
+        txtCode.setEditable(true);
     }
 }
