@@ -182,6 +182,7 @@ public class ItemFormController {
     private void clearFields() {
         tblItem.refresh();
         txtCode.clear();
+
         txtDesc.clear();
         txtUnitPrice.clear();
         txtQty.clear();

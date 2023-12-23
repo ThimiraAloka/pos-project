@@ -30,10 +30,6 @@ f
 6src/main/java/controller/PlaceOrderFormController.java,d\a\da2599fd642ee3543b650efe1c6ca5c43fb8e749
 >
 .gitattributes,2\4\24139dae656713ba861751fb2c2ac38839349a7a
-O
-src/main/java/dto/OrderDto.java,d\9\d99f6e4a8edc2b395bd1e1d43fbcd641e1fa81f5
-V
-&src/main/java/dto/OrderDetailsDto.java,2\0\20791c7d2d61ee83b17398b4f8bb5ffe10c1df39
 S
 #src/main/java/model/OrderModel.java,5\5\55153fd028781ef1ae66489afc20d8cbdb293f9f
 \
@@ -46,5 +42,3 @@ R
 "src/main/java/model/ItemModel.java,6\4\64e26bb1992ad0f7e3462ed7202d9066fa6e9fb5
 [
 +src/main/java/model/impl/ItemModelImpl.java,4\3\4393c95c32ff3e9f6f528a5ea2ebf429a4188d58
-Q
-!src/main/java/dto/tm/OrderTm.java,4\2\42a6499ee3db77d80f585b9bd106d7b57745c86a
