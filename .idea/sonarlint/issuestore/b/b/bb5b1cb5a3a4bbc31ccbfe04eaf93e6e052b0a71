@@ -31,12 +31,12 @@ z
 java:S1104)"XMake txtUnitPrice a static final constant or non-public and provide accessors if needed.(©›×Ğùÿÿÿÿ8…Œ «Ä1
 p
 java:S1104*"SMake tblItem a static final constant or non-public and provide accessors if needed.(ŸØå¼8…Œ «Ä1
-i
-java:S2095L"GUse try-with-resources or close this "Statement" in a "finally" clause.(ôÅ¹Îıÿÿÿÿ8¶ò¼«Ä1
-m
-java:S2095‘"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ìû—8ªŒ «Ä1
 l
 java:S2095n"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ìû—8ªŒ «Ä1
+m
+java:S2095‘"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ìû—8ªŒ «Ä1
+i
+java:S2095L"GUse try-with-resources or close this "Statement" in a "finally" clause.(ôÅ¹Îıÿÿÿÿ8¶ò¼«Ä1
 N
 java:S16028",Remove useless curly braces around statement(Ñ¡Õùÿÿÿÿ8¯Œ «Ä1
 I
